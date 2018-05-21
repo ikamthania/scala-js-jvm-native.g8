@@ -1,7 +1,8 @@
-package $package$
+package $package$.native
 
+import $package$.shared._
 
-object NativeApp {
+object `$name;format="Camel"$NativeApp` {
 
   def main(args: Array[String]): Unit = {
     println(Shared.getMessage("native"))
