@@ -5,7 +5,7 @@ import scala.scalanative.sbtplugin.ScalaNativePlugin._
 
 object $name;format="Camel"$Native {
   private[this] val nativeSettings = $name;format="Camel"$Shared.commonSettings ++ Seq(
-    name := "$name;format="Camel"$Native"/*,
+    /*name := "$name;format="Camel"$Native",
     nativeLinkStubs := true*/
   )
 
