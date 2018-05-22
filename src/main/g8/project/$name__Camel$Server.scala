@@ -5,6 +5,7 @@ import sbt.Keys._
 object $name;format="Camel"$Server {
   private[this] val serverSettings = $name;format="Camel"$Shared.commonSettings ++ Seq(
 //    name := "$name;format="Camel"$Server"
+    scalaVersion := "$scala_version_for_jvm$"
   )
 
   lazy val $name;format="camel"$Server = (project in file("$name;format="norm"$-server"))

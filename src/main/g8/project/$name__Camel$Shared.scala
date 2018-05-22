@@ -30,22 +30,14 @@ object $name;format="Camel"$Shared {
     )
   )
     .jvmSettings(
-      scalaVersion := "$scala_version_for_jvm$",
-      libraryDependencies ++= Seq(
+      scalaVersion := "$scala_version_for_jvm$"
 
-      )
     )
     .jsSettings(
-      scalaVersion := "$scala_version_for_js$",
-      libraryDependencies ++= Seq(
-
-      )
+      scalaVersion := "$scala_version_for_js$"
     )
     .nativeSettings(
-      scalaVersion := "$scala_version_for_native$",
-      libraryDependencies ++= Seq(
-
-      )
+      scalaVersion := "$scala_version_for_native$"
     )
 
   lazy val sharedJs = shared.js
