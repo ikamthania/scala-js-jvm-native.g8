@@ -5,7 +5,7 @@ import sbt.Keys._
 import sbt._
 import webscalajs.ScalaJSWeb
 
-object `$name__Camel$Shared` {
+object $name;format="Camel"$Shared {
 
   lazy val commonSettings = Seq(
     version := Versions.app,
