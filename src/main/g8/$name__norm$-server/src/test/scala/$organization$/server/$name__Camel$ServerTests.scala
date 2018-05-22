@@ -4,7 +4,7 @@ import utest._
 
 object $name;format="Camel"$ServerTests extends TestSuite {
 
-  def tests = TestSuite {
+  def tests = Tests {
 
   }
 
