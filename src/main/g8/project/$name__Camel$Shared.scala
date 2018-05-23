@@ -10,12 +10,8 @@ object $name;format="Camel"$Shared {
 
   lazy val commonSettings = Seq(
     version := Versions.app,
-    scalacOptions ++= Seq(
-      "-encoding", "UTF-8", "-feature", "-deprecation", "-unchecked", "–Xcheck-null" /*, "-Xfatal-warnings"*/ , "-Xlint", "-Ywarn-unused:locals,privates",
-      "-Ywarn-adapted-args", "-Ywarn-dead-code", "-Ywarn-inaccessible", "-Ywarn-nullary-override", "-Ywarn-numeric-widen", "-language:higherKinds",
-      "-language:implicitConversions"
-    ),
-    scalacOptions in Test ++= Seq("-Yrangepos")
+    scalacOptions ++= Seq(),
+    scalacOptions in Test ++= Seq()
 
   )
 
