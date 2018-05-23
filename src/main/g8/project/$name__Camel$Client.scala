@@ -13,7 +13,7 @@ object $name;format="Camel"$Client {
     scalaJSStage in Global := FastOptStage,
     scalaVersion := "$scala_version_for_js$",
     libraryDependencies ++= Seq(
-    "com.lihaoyi" %%% "utest" % "0.6.3" % "test"
+      "com.lihaoyi" %%% "utest" % "0.6.3" % "test"
     ),
     testFrameworks += new TestFramework("utest.runner.Framework")
   )
