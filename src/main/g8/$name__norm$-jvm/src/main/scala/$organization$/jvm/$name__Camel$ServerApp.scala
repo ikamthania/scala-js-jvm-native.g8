@@ -1,4 +1,4 @@
-package $organization$.server
+package $organization$.jvm
 
 import $organization$.shared._
 

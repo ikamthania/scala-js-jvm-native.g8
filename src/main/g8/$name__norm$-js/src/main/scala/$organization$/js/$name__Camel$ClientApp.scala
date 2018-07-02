@@ -1,4 +1,4 @@
-package $organization$.client
+package $organization$.js
 
 import $organization$.shared._
 

@@ -28,7 +28,7 @@ object $name;format="Camel"$Shared {
 
   lazy val shared = (
     crossProject(JSPlatform, JVMPlatform, NativePlatform)
-      .crossType(CrossType.Pure) in file("experiments-shared")).settings(commonSettings: _*)
+      .crossType(CrossType.Pure) in file("$name;format="norm"$-shared")).settings(commonSettings: _*)
     .settings(
       crossScalaVersions := Seq("$scala_version_for_jvm$" ,"$scala_version_for_js$" ,"$scala_version_for_native$").distinct
     )
