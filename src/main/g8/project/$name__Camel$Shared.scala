@@ -1,9 +1,8 @@
 import sbt.Keys._
 import sbt._
-import org.portablescala.sbtplatformdeps.PlatformDepsPlugin.autoImport._
-import sbtcrossproject.{crossProject, CrossType}
-import sbtcrossproject.CrossPlugin.autoImport._
-import scalajscrossproject.ScalaJSCrossPlugin.autoImport.{toScalaJSGroupID => _, _}
+import org.scalajs.sbtplugin.ScalaJSPlugin
+import sbtcrossproject.CrossPlugin.autoImport.{crossProject, CrossType, _}
+import scalajscrossproject.ScalaJSCrossPlugin.autoImport._
 import scalanativecrossproject.ScalaNativeCrossPlugin.autoImport._
 
 object $name;format="Camel"$Shared {
