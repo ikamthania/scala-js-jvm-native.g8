@@ -1,11 +1,11 @@
 package $organization$.native
 
-import utest._
+import org.scalatest.FunSuite
 
-object $name;format="Camel"$NativeAppTests extends TestSuite {
+object $name;format="Camel"$NativeAppTests extends FunSuite {
 
-  def tests = Tests {
-
+  test("An empty Set should have size 0") {
+    assert(true)
   }
 
 }

@@ -1,11 +1,11 @@
 package $organization$.server
 
-import utest._
+import org.scalatest.FunSuite
 
-object $name;format="Camel"$ServerTests extends TestSuite {
+object $name;format="Camel"$ServerTests extends FunSuite {
 
-  def tests = Tests {
-
+  test("An empty Set should have size 0") {
+    assert(Set.empty.size == 0)
   }
 
 }

@@ -9,11 +9,7 @@ object $name;format="Camel"$Native {
   private[this] val nativeSettings = $name;format="Camel"$Shared.commonSettings ++ Seq(
     name := "$name;format="Camel"$Native",
     nativeLinkStubs := true,
-    scalaVersion := "$scala_version_for_native$",
-    libraryDependencies ++= Seq(
-      "com.lihaoyi" %%% "utest" % "0.6.3" % "test"
-    ),
-    testFrameworks += new TestFramework("utest.runner.Framework")
+    scalaVersion := "$scala_version_for_native$"
   )
 
   lazy val $name;format="camel"$Native = (project in file("$name;format="norm"$-native"))
