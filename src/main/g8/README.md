@@ -1,3 +1,3 @@
-$name$
+$name;format="Camel"$
 ------
-$description$
+$project_description$
