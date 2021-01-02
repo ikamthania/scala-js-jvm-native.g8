@@ -1,6 +1,6 @@
-package $organization$.js
+package $package$.$name$.js
 
-import $organization$.shared._
+import $package$.$name$.shared._
 
 object $name;format="Camel"$ClientApp {
 

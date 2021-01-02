@@ -1,6 +1,6 @@
-package $organization$.native
+package $package$.$name$.native
 
-import $organization$.shared._
+import $package$.$name$.shared._
 
 object $name;format="Camel"$NativeApp {
 

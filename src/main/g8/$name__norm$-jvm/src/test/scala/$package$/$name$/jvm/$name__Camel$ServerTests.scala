@@ -1,4 +1,4 @@
-package $organization$.server
+package $package$.$name$.jvm
 
 import org.scalatest.funsuite.AnyFunSuite
 

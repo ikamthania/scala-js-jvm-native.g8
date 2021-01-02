@@ -1,6 +1,6 @@
-package $organization$.jvm
+package $package$.$name$.jvm
 
-import $organization$.shared._
+import $package$.$name$.shared._
 
 object $name;format="Camel"$ServerApp {
 

@@ -1,4 +1,4 @@
-package $organization$
+package $package$.$name$.js
 
 import org.scalatest.funsuite.AnyFunSuite
 

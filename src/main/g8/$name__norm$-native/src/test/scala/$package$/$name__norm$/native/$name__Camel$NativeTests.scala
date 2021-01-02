@@ -1,4 +1,4 @@
-package $organization$.native
+package $package$.$name$.native
 
 import org.scalatest.funsuite.AnyFunSuite
 
